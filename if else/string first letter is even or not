@@ -1,0 +1,6 @@
+s=input('Enter a string:')
+f=s[0]
+if ord(f)%2==0:
+    print(f'{f} contains even ascii value')
+else:
+    print(f'{f} contains odd ascii value')
