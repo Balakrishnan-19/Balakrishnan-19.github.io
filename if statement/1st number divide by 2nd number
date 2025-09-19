@@ -1,0 +1,4 @@
+no1=int(input('Enter first number:'))
+no2=int(input('Enter second number:'))
+if no1%no2==0:
+    print(f'{no1} is divisible by {no2}')
