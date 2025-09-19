@@ -1,0 +1,6 @@
+ch=input('Enter a character:')
+print(ch.swapcase())
+if ch.islower():
+    print(ch.upper())
+else:
+    print(ch.lower())
