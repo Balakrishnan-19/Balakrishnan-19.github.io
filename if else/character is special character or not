@@ -1,0 +1,5 @@
+ch=input('Enter a character:')
+if 32<=ord(ch)<=47 or 58<=ord(ch)<=64:
+    print(f'{ch} is a special character')
+else:
+    print(f'{ch} is not a special character')
