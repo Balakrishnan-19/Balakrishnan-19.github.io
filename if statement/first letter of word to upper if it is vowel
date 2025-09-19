@@ -1,0 +1,3 @@
+ch=input('Enter the character:')
+if ch.lower()=='aeiou': #ch=='aeiouAEIOU'
+    print(f'{ch} is a vowel')
