@@ -1,0 +1,5 @@
+no=int(input('Enter a number:'))
+s=str(no)
+rev=s[::-1]
+if s==rev:        
+    print(f'{no} is palindrome')
