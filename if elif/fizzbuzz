@@ -1,0 +1,7 @@
+no=int(input('enter a number:'))
+if no%5==0 and no%3==0:
+    print('FIZZBUZZ')
+elif no%5==0:
+    print('FIZZ')
+elif no%3==0:
+    print('BUZZ')
