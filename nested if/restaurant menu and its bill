@@ -1,0 +1,59 @@
+print('\t\t\tWelcome to Qspiders Restaurant')
+print('Choose the food type:\nBreakfast\nLunch\nDinner')
+opt=input('Enter the option:').lower()
+if opt=='breakfast':
+    print('1)Idli-5rs\n2)Dosa-10rs\n3)Vada-10rs\n4)Pongal-20rs\n5)Puri-20rs')
+    item=input('Enter food item:').lower()
+    qt=int(input('Enter the quantity:'))
+    if item=='idli':
+        price=5
+    elif item=='dosa':
+        price=10
+    elif item=='vada':
+        price=10
+    elif item=='pongal':
+        price=20
+    elif item=='puri':
+        price=20
+    else:
+        print('Invalid food item')
+elif opt=='lunch':
+    print('1)Chicken briyani-120rs\n2)Mutton briyani-250rs\n3)Veg briyani-50rs\n4)Lemon rice-50rs\n5)Sambar rice-30rs')
+    item=input('Enter food item:').lower()
+    qt=int(input('Enter the quantity:'))
+    if item=='chicken briyani':
+        price=120
+    elif item=='mutton briyani':
+        price=250
+    elif item=='veg briyani':
+        price=50
+    elif item=='lemon rice':
+        price=50
+    elif item=='sambar rice':
+        price=30
+    else:
+        print('Invalid food item')
+elif opt=='dinner':
+    print('1)Chapathi-15rs\n2)Parotta-15rs\n3)Fried rice-100rs\n4)Karam dosa-50rs\n5)Idiyapam-50rs')
+    item = input('Enter food item:').lower()
+    qt = int(input('Enter the quantity:'))
+    if item == 'chapathi':
+        price = 15
+    elif item == 'parotta':
+        price = 15
+    elif item == 'fried rice':
+        price = 100
+    elif item == 'karam dosa':
+        price = 50
+    elif item == 'idiyapam':
+        price = 50
+    else:
+        print('Invalid food item')
+else:
+    print('Invalid timing')
+print('\t\t\tBill')
+print('-'*24)
+print(f'Item:{item}')
+print(f'Quantity:{qt}')
+print(f'Total amount:',qt*price)
+print('-'*24)
