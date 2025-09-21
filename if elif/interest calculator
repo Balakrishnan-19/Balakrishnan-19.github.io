@@ -1,0 +1,40 @@
+print('\t\t\t\tWelcome to Application')
+amt=int(input('Enter the amount:'))
+print('Choose the loan type:\n1 Agricultural loan\n2 Carloan\n3 Houseloan\n4 Education loan')
+opt=(input('Enter the option:'))
+if opt=='1':
+    rate = 7
+    interest=(amt*rate)//100
+    print('\t\t\t\tReceipt')
+    print('_'*24)
+    print('Taken amount:',amt)
+    print('Interest amount:',interest)
+    print('Total amount:',amt+interest)
+    print('_'*24)
+if opt=='2':
+    rate = 15
+    interest=(amt*rate)//100
+    print('\t\t\t\tReceipt')
+    print('_'*24)
+    print('Taken amount:',amt)
+    print('Interest amount:',interest)
+    print('Total amount:',amt+interest)
+    print('_'*24)
+if opt=='3':
+    rate = 17
+    interest=(amt*rate)//100
+    print('\t\t\t\tReceipt')
+    print('_'*24)
+    print('Taken amount:',amt)
+    print('Interest amount:',interest)
+    print('Total amount:',amt+interest)
+    print('_'*24)
+if opt=='4':
+    rate = 18
+    interest=(amt*rate)//100
+    print('\t\t\t\tReceipt')
+    print('_'*24)
+    print('Taken amount:',amt)
+    print('Interest amount:',interest)
+    print('Total amount:',amt+interest)
+    print('_'*24)
