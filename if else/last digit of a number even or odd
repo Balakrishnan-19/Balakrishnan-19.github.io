@@ -1,0 +1,6 @@
+no=int(input('Enter a number:'))
+last=no%10
+if last%2==0:
+    print('Last digit is even')
+else:
+    print('Last digit is odd')
