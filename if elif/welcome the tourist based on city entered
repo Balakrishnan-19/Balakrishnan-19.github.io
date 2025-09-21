@@ -1,0 +1,16 @@
+tn=['chennai','coimbatore','madurai','salem','trichy']
+kn=['bangalore','mysore','mangalore','coorg']
+kl=['kochi','thiruvananthapuram','palakad','kollam']
+ap=['vizag','nellore','tirupathi','vijayawada']
+
+city=input('Enter the city:').lower()
+if city in tn:
+    print('Welcome to Tamil Nadu')
+elif city in kn:
+    print('Welcome to Karnataka')
+elif city in kl:
+    print('Welcome to Kerala')
+elif city in ap:
+    print('Welcome to Andhrapradesh')
+else:
+    print('City is not listed')
