@@ -1,0 +1,8 @@
+no1=int(input('Enter first number:'))
+no2=int(input('Enter second number:'))
+l1=no1%10
+l2=no2%10
+if l1==l2:
+    print('Both contain same last digit')
+else:
+    print('Not ending with same number')
