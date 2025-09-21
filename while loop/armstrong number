@@ -1,0 +1,14 @@
+n=int(input('Enter a number:'))                 #the length of a number should be power of each digit of a number and then all will be added and it should be equal to that number
+temp=n
+no=str(n)
+len=len(no)
+sum=0
+while n>0:
+ rem=n%10
+ cu=rem**len
+ sum=sum+cu
+ n=n//10
+if temp==sum:
+ print('Armstrong number')
+else:
+ print('Not an armstrong number')
