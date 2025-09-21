@@ -1,0 +1,12 @@
+no=int(input('Enter a number:'))       #the given number should be seperated and squared and added until the sum becomes 1
+while no>9:
+ sum=0
+ while no>0:
+  rem=no%10
+  sum=sum+rem**2
+  no=no//10
+ no=sum
+if sum==1:
+ print('Happy number')
+else:
+ print('Not a happy number')
