@@ -1,0 +1,15 @@
+no=int(input('Enter a number:'))        # seperate each digits calculate factorial and add all the factorial and it should be equal to that number
+temp=no
+sum=0
+while no>0:
+ rem=no%10
+ fact=1
+ while rem>1:
+  fact=fact*rem
+  rem=rem-1
+ sum=sum+fact
+ no=no//10
+if sum==temp:
+ print('Strong number')
+else:
+ print('Not strong number')
