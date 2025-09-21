@@ -1,0 +1,15 @@
+no=int(input('Enter a number:'))           #sum of first and last digit should be equal to all the middle digits in a number
+temp=no
+osum=0
+isum=0
+while no>0:
+ rem=no%10
+ if no==temp or no<10:
+  osum=osum+rem
+ else:
+  isum=isum+rem
+ no=no//10
+if osum==isum:
+ print('Xylem number')
+else:
+ print('Phloem number')
