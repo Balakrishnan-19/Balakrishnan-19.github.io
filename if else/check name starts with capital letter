@@ -1,0 +1,6 @@
+s=input('Enter your name:')
+f=s[0]
+if f.isupper():
+    print('your name starts with uppercase')
+else:
+    print('your name starts with lowercase')
